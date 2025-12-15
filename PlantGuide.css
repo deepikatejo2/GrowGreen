@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/green-foliage-background_53876-112907.jpg?semt=ais_hybrid&w=740&q=80);
+  font-family : 'Garamond';
+  text-align : center;
+}
+.heading {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230704/pngtree-natural-green-leaf-pattern-3d-rendered-raster-illustration-for-background-and-image_3731630.jpg);
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: papyrus;
+  font-size: 40px;
+  border: 2px solid black;
+  font-weight: 600;
+}
+#title {
+  font-size : 30px;
+  color : white;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230704/pngtree-natural-green-leaf-pattern-3d-rendered-raster-illustration-for-background-and-image_3731630.jpg);
+  width : 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border : 1px solid rgb(0,100,0); 
+  border-radius : 10px;
+}
+form {
+  font-size: 23px;
+}
+#plants {
+  padding: 8px;
+  font-size: 15px;
+}
+.plant {
+  margin: 50px;
+}
+.plant-description {
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border-collapse: collapse;
+  border: 2px solid darkgreen;
+  padding: 50px;
+}
+tr {
+  height: 75px;
+}

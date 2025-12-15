@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="Products.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <span class="logo">Grow Green<img src="https://cdn-icons-png.flaticon.com/128/1892/1892747.png" alt="main-logo" height="35px"></span>
+      <div id="cart-icon">
+        <i class="ri-shopping-bag-line"></i>
+        <span class="cart-item-count"></span>
+      </div>
+    </header>
+
+    <div class="cart">
+      <h2 class="cart-title">Your cart</h2>
+      <div class="cart-content">
+        <!--
+        <div class="cart-box">
+          <img src="plant images/product1.jpg" class="cart-img product-image">
+          <div class="cart-detail">
+            <h2 class="cart-product-title">Aglaonema</h2>
+            <span class="cart-price">$20</span>
+            <div class="cart-quantity">
+              <button id="decrement">-</button>
+              <span class="number">1</span>
+              <button id="increment">+</button>
+            </div>
+          </div>
+          <i class="ri-delete-bin-line cart-remove"></i>
+        </div>
+      -->
+      </div>
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0 </div>
+      </div>
+      <button class="btn-buy">Buy now</button>
+      <i class="ri-close-line" id="cart-close"></i>
+    </div>
+
+    
+
+    <section class="shop">
+      <h1 class="section-title">Shop Products</h1>
+      <h2 class="sub-section-title" id="indoor-plants">Indoor plants</h2>
+      <h3 class="note">*Please note that all the plants will be delivered with their root ball wrapped in a cotton bag. Pots must be purchased separately</h3>
+      <div class="product-content">
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product1.jpg" alt="pic-haworthia-cooperi">
+            </div>
+             <h2 class="product-title">Haworthia Cooperi<br>3 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$14.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product2.jpg" alt="pic-monstera-deliciosa">
+            </div>
+             <h2 class="product-title">Monstera Deliciosa<br>12 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$24.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product3.jpg" alt="pic-snake-plant">
+            </div>
+             <h2 class="product-title">Snake Plant<br>12 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$19.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product4.jpg" alt="pic-watermelon-peperomia">
+            </div>
+             <h2 class="product-title">Watermelon Peperomia<br>6 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$19.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product5.jpg" alt="pic-camille-plant">
+            </div>
+             <h2 class="product-title">Camille plant<br>6 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$14.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product6.jpg" alt="pic-pepper-face">
+            </div>
+             <h2 class="product-title">Pepper Face<br>6 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$14.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product7.jpg" alt="pic-bird's-nest">
+            </div>
+             <h2 class="product-title">Bird's Nest<br>8 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$19.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product8.jpg" alt="pic-anthurium">
+            </div>
+             <h2 class="product-title">Anthurium<br>10 inch plant</h2> 
+             <div class="price-and-cart">
+              <span class="price">$29.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+      </div>
+    </section>
+
+
+
+    <section class="shop">
+      <h2 class="sub-section-title" id="soil-and-fertiliser">Soil & Fertilisers</h2>
+      <div class="product-content">
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product9.jpg" alt="pic-red-soil">
+            </div>
+             <h2 class="product-title">Red Soil (5kg)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$19.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product10.jpg" alt="pic-clay-soil">
+            </div>
+             <h2 class="product-title">Akadama\Clay Soil (2kg)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$14.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product11.jpg" alt="pic-potting-soil">
+            </div>
+             <h2 class="product-title">Potting Soil (5kg)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$19.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product12.jpg" alt="pic-npk-fertiliser">
+            </div>
+             <h2 class="product-title">NPK Fertiliser (1kg)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$11.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          
+
+      </div>
+    </section>
+
+    <section class="shop">
+      <h2 class="sub-section-title" id="seeds">Seeds</h2>
+      <div class="product-content">
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product13.jpg" alt="pic-coriander-seeds">
+            </div>
+             <h2 class="product-title">Coriander Seeds (10g)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$0.49</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product14.jpg" alt="pic-guar-beans">
+            </div>
+             <h2 class="product-title">Guar Beans (10g)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$0.49</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product15.jpg" alt="pic-mustard-seeds">
+            </div>
+             <h2 class="product-title">Mustard Seeds (10g)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$0.49</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product16.jpg" alt="pic-wheat-seeds">
+            </div>
+             <h2 class="product-title">Wheat Seeds (10g)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$0.49</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          
+
+      </div>
+    </section>
+
+    <section class="shop">
+      <h2 class="sub-section-title" id="gardening-tools">Gardening tools</h2>
+      <div class="product-content">
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product17.jpg" alt="pic-garden-tools-set">
+            </div>
+             <h2 class="product-title">Garden Tools (Metal)<br>(9pcs)</h2> 
+             <div class="price-and-cart">
+              <span class="price">$49.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product18.jpg" alt="pic-shovel-small"> 
+            </div>
+             <h2 class="product-title">Shovel-Small<br>8 inch</h2> 
+             <div class="price-and-cart">
+              <span class="price">$7.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product19.jpg" alt="pic-watering-can-yellow">
+            </div>
+             <h2 class="product-title">Watering Can (Steel)<br>Yellow-2.5 ltr</h2> 
+             <div class="price-and-cart">
+              <span class="price">$9.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img class="product-image" src="plant images/product20.jpg" alt="pic-teracotta-pot-12inch">
+            </div>
+             <h2 class="product-title">Teracotta pot<br>12 inch</h2> 
+             <div class="price-and-cart">
+              <span class="price">14.99</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+             </div>
+          </div>
+
+          
+
+      </div>
+    </section>
+
+    <script src="Products.js"></script>
+  </body>
+</html>
