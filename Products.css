@@ -9,7 +9,6 @@ body {
 }
 header {
   position: fixed;
-  font-family : papyrus;
   top: 0;
   left: 0;
   width: 100%;
@@ -221,3 +220,4 @@ header {
   }
 
 }
+
